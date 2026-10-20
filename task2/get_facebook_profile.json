@@ -1,0 +1,92 @@
+{
+  "jsonrpc": "2.0",
+  "id": 3,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":10001,\"display_name\":\"Kel Tsang\",\"original_name\":\"Kelly Tsang\",\"city\":\"Central\",\"country\":\"Hong Kong\",\"hometown\":\"Sha Tin\",\"bio\":\"Numbers by day, hiking by weekend.\",\"status\":\"Single\",\"education\":\"Bachelor's Degree\",\"current_job\":\"Manager\",\"current_company\":\"AIA\",\"interests\":\"Hiking, Personal Finance, Photography\",\"friend_count\":40,\"friends\":[795,5759,3011,1489,726,9984,3131,188,5283,3430,1866,2732,3650,5943,7642,8797,3403,4053,9096,4775,8173,7748,6427,3974,5101,3445,4260,468,8262,5150,1039,6083,6572,9023,5353,4210,9936,9449,3842,1308],\"posts\":[{\"id\":54764,\"content\":\"Graduation day at HKUST! 🎓\"},{\"id\":54765,\"content\":\"First day as an Analyst at HSBC, wish me luck!\"},{\"id\":54766,\"content\":\"Learning so much in my Analyst role at Standard Chartered\"},{\"id\":54767,\"content\":\"Excited to start my new Manager role at AIA!\"},{\"id\":54768,\"content\":\"Dragon's Back hike this morning, what a view ⛰️\"}]}"
+      }
+    ],
+    "structuredContent": {
+      "id": 10001,
+      "display_name": "Kel Tsang",
+      "original_name": "Kelly Tsang",
+      "city": "Central",
+      "country": "Hong Kong",
+      "hometown": "Sha Tin",
+      "bio": "Numbers by day, hiking by weekend.",
+      "status": "Single",
+      "education": "Bachelor's Degree",
+      "current_job": "Manager",
+      "current_company": "AIA",
+      "interests": "Hiking, Personal Finance, Photography",
+      "friend_count": 40,
+      "friends": [
+        795,
+        5759,
+        3011,
+        1489,
+        726,
+        9984,
+        3131,
+        188,
+        5283,
+        3430,
+        1866,
+        2732,
+        3650,
+        5943,
+        7642,
+        8797,
+        3403,
+        4053,
+        9096,
+        4775,
+        8173,
+        7748,
+        6427,
+        3974,
+        5101,
+        3445,
+        4260,
+        468,
+        8262,
+        5150,
+        1039,
+        6083,
+        6572,
+        9023,
+        5353,
+        4210,
+        9936,
+        9449,
+        3842,
+        1308
+      ],
+      "posts": [
+        {
+          "id": 54764,
+          "content": "Graduation day at HKUST! 🎓"
+        },
+        {
+          "id": 54765,
+          "content": "First day as an Analyst at HSBC, wish me luck!"
+        },
+        {
+          "id": 54766,
+          "content": "Learning so much in my Analyst role at Standard Chartered"
+        },
+        {
+          "id": 54767,
+          "content": "Excited to start my new Manager role at AIA!"
+        },
+        {
+          "id": 54768,
+          "content": "Dragon's Back hike this morning, what a view ⛰️"
+        }
+      ]
+    },
+    "isError": false
+  }
+}

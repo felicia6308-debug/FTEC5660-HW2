@@ -1,0 +1,77 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"id\":10001,\"name\":\"Kelly Tsang\",\"headline\":\"Finance Professional\",\"city\":\"Central\",\"country\":\"Hong Kong\",\"industry\":\"Finance\",\"status\":\"employed\",\"years_experience\":9,\"summary\":\"Finance professional with experience in banking and insurance, focused on financial analysis and reporting.\",\"skills\":[{\"name\":\"Financial Analysis\",\"proficiency\":4},{\"name\":\"Excel\",\"proficiency\":5},{\"name\":\"SQL\",\"proficiency\":2},{\"name\":\"Risk Modeling\",\"proficiency\":2}],\"experience\":[{\"company\":\"HSBC\",\"title\":\"Analyst\",\"seniority\":\"junior\",\"start_year\":2016,\"end_year\":2019,\"is_current\":false},{\"company\":\"Standard Chartered\",\"title\":\"Analyst\",\"seniority\":\"mid\",\"start_year\":2019,\"end_year\":2022,\"is_current\":false},{\"company\":\"AIA\",\"title\":\"Manager\",\"seniority\":\"mid\",\"start_year\":2022,\"end_year\":null,\"is_current\":true}],\"education\":[{\"school\":\"HKUST\",\"degree\":\"BSc\",\"field\":\"Finance\",\"start_year\":2012,\"end_year\":2016}]}"
+      }
+    ],
+    "structuredContent": {
+      "id": 10001,
+      "name": "Kelly Tsang",
+      "headline": "Finance Professional",
+      "city": "Central",
+      "country": "Hong Kong",
+      "industry": "Finance",
+      "status": "employed",
+      "years_experience": 9,
+      "summary": "Finance professional with experience in banking and insurance, focused on financial analysis and reporting.",
+      "skills": [
+        {
+          "name": "Financial Analysis",
+          "proficiency": 4
+        },
+        {
+          "name": "Excel",
+          "proficiency": 5
+        },
+        {
+          "name": "SQL",
+          "proficiency": 2
+        },
+        {
+          "name": "Risk Modeling",
+          "proficiency": 2
+        }
+      ],
+      "experience": [
+        {
+          "company": "HSBC",
+          "title": "Analyst",
+          "seniority": "junior",
+          "start_year": 2016,
+          "end_year": 2019,
+          "is_current": false
+        },
+        {
+          "company": "Standard Chartered",
+          "title": "Analyst",
+          "seniority": "mid",
+          "start_year": 2019,
+          "end_year": 2022,
+          "is_current": false
+        },
+        {
+          "company": "AIA",
+          "title": "Manager",
+          "seniority": "mid",
+          "start_year": 2022,
+          "end_year": null,
+          "is_current": true
+        }
+      ],
+      "education": [
+        {
+          "school": "HKUST",
+          "degree": "BSc",
+          "field": "Finance",
+          "start_year": 2012,
+          "end_year": 2016
+        }
+      ]
+    },
+    "isError": false
+  }
+}
