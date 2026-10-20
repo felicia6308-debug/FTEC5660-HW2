@@ -21,5 +21,3 @@ Automation promises less manual review, yet deciding when to trust automation re
 The public-test result also requires care. Our agent classified all seven public CVs correctly in one run, but that measures performance on those examples. It does not establish reliability on unseen candidates or resistance to different attacks. The Task 2 result is a concrete example of how high ordinary accuracy and a serious blind spot can exist together.
 
 My main takeaway is that an agent's reliability depends on the entire workflow: what the document contains, what the loader preserves, which person the search resolves, what evidence the tools return and how uncertainty is handled. I would use automation to organize and compare evidence, while keeping a review path for extraction mismatches and unresolved cases. The goal should be a decision supported by inspectable evidence, with confidence limited to what the system actually checked.
-
-*This reflection was prepared with AI assistance, which the assignment permits. The examples and reported scores come from this homework's implementation and observed tests.*
