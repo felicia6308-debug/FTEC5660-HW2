@@ -1,0 +1,361 @@
+{
+  "CV_1.pdf": {
+    "score": 0.95,
+    "identity_id": 6337,
+    "discrepancies": [],
+    "coverage": {
+      "name": "Angela Yip — matches LinkedIn 6337",
+      "city": "London, UK — matches",
+      "jobs": "(1) Senior Manager, Deloitte 2020–Present → profile Manager (seniority senior), Deloitte, 2020–current (is_current) — matches with title/seniority normalization; (2) Senior Scientist, Carousell 2012–2018 → profile Scientist (seniority senior), Carousell, 2012–2018 — matches with title/seniority normalization. No omitted jobs claimed in CV.",
+      "education": "MBA in Logistics, Stanford, graduated 2012 → profile MBA, Logistics, Stanford, 2008–2012 (end_year 2012) — matches",
+      "skills": "Supply Chain, Inventory Management, Operations — all three present in profile skills; no absent skills",
+      "unresolved": "Hometown 'Stanford' not verifiable via LinkedIn (headline/hometown excluded as discrepancy sources); Facebook search returned an Angela Yip in London (FB id 15) but that profile shows Scientist at Gojek, doctoral education, and does not corroborate this candidate, so it was not used as evidence."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        6337,
+        8283
+      ],
+      "matching_anchors": [
+        "Employer Carousell with 2012–2018 tenure (Senior/Scientist)",
+        "Employer Deloitte with 2020–present tenure (senior manager-level)",
+        "Stanford MBA in Logistics ending 2012",
+        "London, UK location",
+        "Logistics industry and all three claimed skills"
+      ],
+      "reasons_other_candidates_excluded": [
+        "LinkedIn 8283 (Angela Yip, Logistics Professional, London): different employers (Standard Chartered, Shopee, PwC) and education (Seoul National University MSc), so its jobs and education almost entirely disagree — a namesake, not the candidate.",
+        "All other London search results were in unrelated industries (marketing, legal, healthcare, design, finance, software, education, AI), and none matched the Carousell/Deloitte/Stanford anchors.",
+        "Facebook id 15 (Angela Yip, London) was excluded as an identity match: current job Scientist at Gojek, doctoral education, no corroboration of Deloitte/Carousell/Stanford history."
+      ]
+    },
+    "identity_review": {
+      "performed": false
+    }
+  },
+  "CV_3.pdf": {
+    "score": 0.95,
+    "identity_id": 6541,
+    "discrepancies": [],
+    "coverage": {
+      "identity": "Verified: LinkedIn 6541 John Smith, Hyderabad, India, headline 'Consulting Professional', industry Consulting — matches CV title and location; Facebook 6541 same name/city/hometown Delhi, current job Engineer at Shopee, doctoral education, corroborating identity.",
+      "name": "Verified — John Smith (LinkedIn and Facebook original_name).",
+      "city": "Verified — Hyderabad, India; Facebook hometown Delhi matches CV 'Hometown: Delhi'.",
+      "jobs": [
+        "Engineer, Shopee 2017–Present — verified (start_year 2017, end_year null, is_current true, title Engineer).",
+        "Engineer, Innovate HK Ltd 2006–2009 — verified (start_year 2006, end_year 2009, title Engineer)."
+      ],
+      "education": [
+        "PhD in Consulting, Seoul National University, graduated 2006 — verified (degree PhD, field Consulting, end_year 2006)."
+      ],
+      "skills_all_checked": [
+        "Strategy — present in LinkedIn skills.",
+        "Problem Solving — present in LinkedIn skills.",
+        "Microsoft PowerPoint — present as 'PowerPoint' (equivalent wording)."
+      ],
+      "unresolved": "None material. LinkedIn years_experience field (3) is not a CV claim and is not treated as a contradiction; summary prose was not used as a discrepancy source.",
+      "other_candidates_excluded": "The 15 other Hyderabad John Smith profiles (1194, 1465, 1796, 2186, 2237, 2475, 3209, 3964, 4900, 6613, 7833, 8819, 8839, 9309, 9889) are in unrelated industries/headlines (AI, Healthcare, Legal, Marketing, Finance, Logistics, Software, Design) and none is a consulting professional; targeted searches for 'Shopee Engineer' and 'Seoul National University Consulting' in Hyderabad returned no John Smith duplicates, so 6541 is the unique profile carrying the CV's employer and education anchors."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        6541,
+        1194,
+        1465,
+        1796,
+        2186,
+        2237,
+        2475,
+        3209,
+        3964,
+        4900,
+        6613,
+        7833,
+        8819,
+        8839,
+        9309,
+        9889
+      ],
+      "matching_anchors": [
+        "Full name John Smith",
+        "City Hyderabad, India (hometown Delhi on Facebook)",
+        "Headline 'Consulting Professional' matching CV title and industry",
+        "Employer Shopee with Engineer title, 2017–present",
+        "Employer Innovate HK Ltd with Engineer title, 2006–2009",
+        "PhD in Consulting at Seoul National University with graduation year 2006",
+        "All three CV skills present in LinkedIn skills list (Strategy, Problem Solving, PowerPoint)"
+      ],
+      "reasons_other_candidates_excluded": [
+        "Other same-name Hyderabad profiles hold unrelated roles/industries (AI, Healthcare, Legal, Marketing, Finance, Logistics, Software, Design) and none show Shopee, Innovate HK Ltd, or Seoul National University experience or a Consulting PhD; using them would mean combining facts from different people."
+      ]
+    },
+    "identity_review": {
+      "performed": false
+    }
+  },
+  "CV_2.pdf": {
+    "score": 0.95,
+    "identity_id": 47,
+    "discrepancies": [],
+    "coverage": {
+      "name": "Minh Pham — matches LinkedIn profile 47 exactly.",
+      "location": "CV primary city Beijing, China matches profile city Beijing/China. CV also lists Hong Kong alongside Beijing (profile hometown-linked via HKU education); primary city verified, secondary listing noted but not contradicted by a separate profile field.",
+      "experience": [
+        "Manager, BCG, 2022–Present — verified (BCG, Manager, 2022, current).",
+        "Analyst, Tencent, 2013–2017 — verified (Tencent, Analyst, 2013–2017)."
+      ],
+      "education": [
+        "BSc in Design, The University of Hong Kong, graduation 2011 — verified (BSc, Design, HKU, end_year 2011)."
+      ],
+      "skills": [
+        "UI/UX Design → LinkedIn 'UI/UX' (equivalent wording) — present.",
+        "Prototyping → present.",
+        "Graphic Design → present."
+      ],
+      "not_checkable": "Job description bullets (team leadership, stakeholder communication, design thinking, reports) are narrative and not contradicting any profile field.",
+      "identity_resolution": "Exact match on independent anchors: employer BCG, employer Tencent, school HKU, degree/field BSc Design, graduation 2011, plus all three listed skills."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        47,
+        4968,
+        7002,
+        4117,
+        2758
+      ],
+      "matching_anchors": [
+        "BCG Manager 2022–present (profile 47)",
+        "Tencent Analyst 2013–2017 (profile 47)",
+        "The University of Hong Kong, BSc Design, 2011 (profile 47)",
+        "Skills UI/UX, Prototyping, Graphic Design (profile 47)"
+      ],
+      "reasons_other_candidates_excluded": [
+        "4968 (Beijing, Design, 7 yrs): employers PwC/Gojek/UrbanFlow, education MIT MBA — no BCG, Tencent or HKU; mismatched history.",
+        "7002 (Beijing, Design, 13 yrs): employers Innovate HK Ltd/Apple, education University of Tokyo MSc — no overlap.",
+        "4117 (Kowloon, Design, 3 yrs): employers Manulife/Deloitte, education Stanford MSc — no overlap.",
+        "2758 (Causeway Bay, Design, 1 yr): employers Carousell/Bank of East Asia/Traveloka, education McGill PhD — no overlap.",
+        "Facebook 'Minh Pham' in Beijing (id 70) is a different person (Engineer at Manulife); not used as identity anchor."
+      ]
+    },
+    "identity_review": {
+      "performed": false
+    }
+  },
+  "CV_6.pdf": {
+    "score": 0.95,
+    "identity_id": 6561,
+    "discrepancies": [],
+    "coverage": {
+      "name": "Daniel Wilson — matches profile 6561",
+      "city": "Munich, Germany — matches",
+      "headline": "Legal Professional — matches",
+      "experience": "Junior Scientist, Tencent, 2022–Present (is_current) — verified; Junior Engineer, Carousell, 2010–2011 — verified",
+      "education": "MBA in Legal, PolyU, graduated 2010 (end_year 2010) — verified (start_year 2005 not claimed)",
+      "skills": "Compliance, Litigation, Contract Review — all three present in matched LinkedIn skills list",
+      "unresolved_or_unverifiable": "Hometown Hong Kong: not on LinkedIn profile and not treated as a discrepancy source; no Facebook profile located for this individual (Munich Facebook search returned no ID matching 6561), so no social corroboration available"
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        6561,
+        7440,
+        8715,
+        2764,
+        3189,
+        3695,
+        3923,
+        5569,
+        9619,
+        9783
+      ],
+      "matching_anchors": [
+        "Employer history matches exactly: Carousell junior Engineer 2010–2011 then Tencent junior Scientist 2022–present",
+        "Education matches exactly: PolyU, MBA, Legal, end_year 2010",
+        "Skills list matches exactly: Compliance, Litigation, Contract Review",
+        "Headline/industry (Legal Professional, Legal) and location Munich, Germany match, and years_experience 2 is consistent with the short post-2022 tenure"
+      ],
+      "reasons_other_candidates_excluded": [
+        "7440: Legal Professional in Munich but employs Traveloka, Innovate HK Ltd, Apple; education Seoul National University BSc — almost all jobs and education disagree, so a different namesake",
+        "8715: Legal Professional in Munich but employs Amazon and Google; education Cambridge PhD — jobs and education disagree",
+        "2764, 3189, 3695, 3923, 5569, 9619, 9783: same name/city but different industries (Design, Education, Software, Healthcare, Marketing) and no overlap with claimed Tencent/Carousell/PolyU anchors"
+      ]
+    },
+    "identity_review": {
+      "performed": false
+    }
+  },
+  "CV_4.pdf": {
+    "score": 0.05,
+    "identity_id": 8235,
+    "discrepancies": [
+      "Innovate HK Ltd employment start year: CV claims '2015 – Present'; the matched LinkedIn profile (id 8235) records start_year 2014, end_year null (current). Same employer and title (Engineer), but the start year is altered by one year."
+    ],
+    "coverage": {
+      "identity": "Resolved with high confidence to LinkedIn id 8235 (Michael Cheung, AI Professional, Munich, Germany). Facebook id 8235 corroborates: original_name 'Michael Cheung', Munich/Germany, current job 'Engineer' at 'Innovate HK Ltd', education 'Doctoral Degree'.",
+      "name": "Michael Cheung — matches on LinkedIn and Facebook original_name.",
+      "city": "Munich, Germany — matches LinkedIn city/country and Facebook city/country.",
+      "jobs": [
+        "Engineer, Innovate HK Ltd, Present — employer, title and current status verified; start year CONTRADICTED (CV 2015 vs profile 2014).",
+        "Analyst, Standard Chartered, 2010–2012 — fully verified: company Standard Chartered, title Analyst, start_year 2010, end_year 2012."
+      ],
+      "education": [
+        "PhD, field AI, Local State University, graduated 2004 — verified: degree PhD, field AI, school Local State University, end_year (graduation) 2004. Graduation compared against end_year, not start_year (profile start_year 2000 is not claimed in the CV)."
+      ],
+      "skills": [
+        "Python — present in matched LinkedIn skills list.",
+        "PyTorch — present in matched LinkedIn skills list.",
+        "ML — present in matched LinkedIn skills list.",
+        "No CV skill is absent from the matched profile's skill list (CV lists fewer skills than the profile, which is allowed)."
+      ],
+      "unresolved": "None material. Every CV claim (name, city, 2 jobs with dates, 1 degree with field and graduation year, 3 skills) was explicitly checked against profile id 8235."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        8235,
+        8875,
+        8473,
+        4359,
+        4527,
+        5602,
+        8384,
+        6327,
+        594,
+        2585
+      ],
+      "matching_anchors": [
+        "Employer 'Innovate HK Ltd' as current employer with title 'Engineer' — uniquely found on id 8235; confirmed independently on Facebook profile 8235 (current_job Engineer, current_company Innovate HK Ltd).",
+        "Employer 'Standard Chartered' with title 'Analyst' for exactly 2010–2012 — matches id 8235.",
+        "Education 'Local State University', PhD, field AI, graduation 2004 — matches id 8235 (end_year 2004).",
+        "Skills Python, PyTorch, ML — all three exactly present on id 8235's skill list.",
+        "City Munich, Germany — matches id 8235's LinkedIn and Facebook records.",
+        "Coarse filters (name/city/headline/industry) were treated as insufficient; the decision rests on the employer, education and skill anchors above."
+      ],
+      "excluded_alternatives": [
+        "id 8875 (Michael Cheung, AI Professional, Munich) — different employers (Shopee, EY, Apple), MBA from KAIST 2008–2012, no Innovate HK Ltd, no Standard Chartered, no Local State University; skills lack Python.",
+        "id 8473 (Michael Cheung, Software Professional, Munich) — has Standard Chartered but as a current Analyst since 2022; other employers McKinsey and Carousell; PhD from The University of Hong Kong in Software; no Innovate HK Ltd; skills lack PyTorch and ML.",
+        "id 5602 (Michael Cheung, Marketing Professional, Munich) — has Standard Chartered but as Analyst 2005–2011 and as is_current, i.e. dates and status contradict the CV; BSc Marketing from PolyU; no Innovate HK Ltd; unrelated skills.",
+        "id 4359 (Finance, Munich) — Meta and ByteDance, PhD Finance from City University of Hong Kong 2009; no matching employer, education or skills.",
+        "id 4527 (Education, Munich) — Alibaba and Bright Solutions, PhD Education from Cambridge 2011; no matching anchors.",
+        "id 8384 (Design, Munich) — Tencent, BSc Design Cambridge; no matching anchors.",
+        "id 6327 (Michael Cheung, AI Professional, Berlin — filter relaxed beyond Munich) — only employer Bright Solutions 2007–2011, MSc from National University 2013; no Innovate HK Ltd, no Standard Chartered, no PhD; skills lack PyTorch.",
+        "id 594 (Software, Causeway Bay, Hong Kong — Hong Kong checked because the CV employer name references HK) — only employer BCG, MBA University of Toronto; no matching anchors.",
+        "id 2585 (AI, Sha Tin, Hong Kong) — PwC and Hang Seng Bank, PhD AI from NUS 2000–2004 but wrong school and employers; skills lack Python and PyTorch.",
+        "All other same-name search hits (Munich Finance/Design/Education/Healthcare/Logistics/Legal/Marketing/Consulting, plus non-German locations) lacked the distinctive Innovate HK Ltd + Standard Chartered 2010–2012 + Local State University PhD AI combination and were not plausible matches; location and industry filters were relaxed (worldwide name search, AI-only search, Germany-wide search) to confirm no better-supported candidate exists."
+      ]
+    },
+    "identity_review": {
+      "performed": true,
+      "initial_identity_id": 8235,
+      "initial_score": 0.05
+    }
+  },
+  "CV_5.pdf": {
+    "score": 0.05,
+    "identity_id": 1297,
+    "discrepancies": [
+      "CV claims 'Senior Analyst, Microsoft 2007 – 2008', but the matched LinkedIn profile (id 1297) lists 'Analyst' at Microsoft, 2007–2008, seniority 'junior' — the CV upgrades the title/seniority."
+    ],
+    "coverage": {
+      "name": "Verified — 'An Tran' on LinkedIn id 1297; Facebook id 1297 display_name/original_name 'An Tran'.",
+      "city": "Verified — Hanoi, Vietnam on both LinkedIn (city Hanoi, country Vietnam) and Facebook; Facebook hometown 'London' matches the CV's stated hometown.",
+      "job_1_KPMG": "Verified — Manager, KPMG, start 2021, end_year null, is_current true (CV: '2021 – Present'). Corroborated on Facebook: current_job 'Manager', current_company 'KPMG'.",
+      "job_2_Microsoft": "Employer and dates verified (Microsoft, 2007–2008), TITLE/SENIORITY CONTRADICTED — profile 'Analyst' (junior) vs CV 'Senior Analyst'.",
+      "education": "Verified — Oxford, PhD, field Design, end_year 2006 (start 2003); Facebook education 'Doctoral Degree'.",
+      "skills": "Verified — all three CV skills enumerated against the matched profile's skill list: Prototyping (present), Graphic Design (present), UI/UX (present). No missing skills.",
+      "unresolved": "None material; no CV field left unchecked."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        1297,
+        5687,
+        1208,
+        8218,
+        404,
+        430,
+        549,
+        502,
+        9463,
+        891,
+        6845,
+        1691,
+        6128
+      ],
+      "matching_anchors": [
+        "Employer history: KPMG (Manager, 2021–present) — CV's current role",
+        "Employer history: Microsoft (2007–2008) — CV's historical role",
+        "Education: Oxford PhD in Design completing 2006 — CV's degree, field and graduation year",
+        "Location: Hanoi, Vietnam (and Facebook hometown London, matching the CV header)",
+        "Skills: Prototyping, Graphic Design, UI/UX all in the profile's skill list",
+        "Facebook profile 1297 independently corroborates Manager at KPMG and a Doctoral Degree"
+      ],
+      "reasons_other_candidates_excluded": [
+        "5687 (An Tran, Design, Hanoi): AIA and Traveloka only, NTU PhD 2009–2014 — no KPMG/Microsoft/Oxford overlap.",
+        "1208 (An Tran, Design, Hanoi): AIA, DataForge, Amazon; CUHK MBA — different employers and degree.",
+        "8218 (An Tran, Design, Ho Chi Minh City): HSBC, Innovate HK; Cambridge PhD 2005–2008 — city, employers and school differ.",
+        "404 (An Tran, Design, Berlin): Standard Chartered only; University of Melbourne PhD 2020 — differs on city, employers, school, graduation year.",
+        "430 (Singapore, Design): Bain, GreenLeaf; Harvard PhD 2013 — no overlap.",
+        "549 (Manchester, Design): Manulife, BCG, EY; Tsinghua MBA — no overlap.",
+        "502 (Shanghai, Design): Google, Meta, McKinsey; Toronto BSc — no overlap.",
+        "9463 (Singapore, Design): PwC; Harvard BSc 2013 — no overlap.",
+        "891 (Singapore, Design): Microsoft 2023–present, HSBC; Tokyo MSc — Microsoft dates/years and degree level differ.",
+        "6845 (Kowloon, Design): Bank of East Asia, Amazon, TechWorks; MSc — no overlap.",
+        "1691 (Shanghai, Design): DataForge, Carousell, TechWorks; BSc 2006 — no KPMG/Microsoft/Oxford.",
+        "6128 (Manchester, Design): Tencent, Alibaba, AIA; PhD 2007–2012 — no overlap.",
+        "Non-Design An Trans in Hanoi (e.g., 189 Finance, 202 Consulting, 1242 Logistics, 3707/8353 Finance, 4547/5095 Marketing, 9070/9293 Software, 1297 aside) were not plausible on headline/industry/employer anchors and lacked any KPMG/Microsoft/Oxford history; the CV headline 'Design Professional' plus the full employer/education chain uniquely selects id 1297. Only one profile (1297) combines KPMG + Microsoft + Oxford PhD Design graduating 2006."
+      ]
+    },
+    "identity_review": {
+      "performed": true,
+      "initial_identity_id": 1297,
+      "initial_score": 0.05
+    }
+  },
+  "CV_7.pdf": {
+    "score": 0.05,
+    "identity_id": 9590,
+    "discrepancies": [
+      "CV skill 'Docker' is absent from the matched LinkedIn skills list (Python, Go, Kubernetes, Java) — unsupported skill claim (linked with score 0.05)."
+    ],
+    "coverage": {
+      "verified_jobs": "Meta — Analyst, 2016–Present matches LinkedIn Meta / Analyst / seniority senior / 2016–null (current); HSBC — Scientist, 2005–2009 matches LinkedIn HSBC / Scientist / seniority senior / 2005–2009",
+      "verified_education": "MIT, BSc, Software, graduated 2004 matches LinkedIn MIT / BSc / Software / start 2000, end_year 2004 (graduation equals profile end_year)",
+      "verified_identity": "Name Jun Liu, city Hanoi Vietnam and industry Software match LinkedIn 9590; Facebook 9590 corroborates original_name Jun Liu, Hanoi, hometown Boston, Bachelor's degree, current job Analyst at Meta",
+      "skills_check": "Python, Go, Kubernetes, Java present in matched LinkedIn skills; Docker NOT present — discrepancy",
+      "unresolved": "No unresolved anchors other than the missing Docker skill; no date, title, employer, city or degree contradictions found",
+      "not_used_as_discrepancy_sources": "Headline 'Software Professional', summary text, hometown Boston (CV and Facebook agree anyway)"
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        9590,
+        1506,
+        3414,
+        8554,
+        7179,
+        8274,
+        4144,
+        2488,
+        464
+      ],
+      "matching_anchors": [
+        "Employer+titles+dates: HSBC Scientist 2005–2009 and Meta Analyst 2016–present (current) — exact",
+        "Education: MIT BSc Software, end_year 2004 — exact",
+        "City/industry/name: Jun Liu, Hanoi, Vietnam, Software",
+        "Independent corroboration via Facebook 9590: original_name Jun Liu, Hanoi, hometown Boston, current job Analyst at Meta, education Bachelor's"
+      ],
+      "reasons_other_candidates_excluded": [
+        "1506 (Jun Liu, Hanoi, Software): Gojek Engineer and Microsoft Analyst, CUHK MBA 2023 — no HSBC/Meta/MIT anchor",
+        "3414 (Jun Liu, Hanoi, Software): TechWorks Engineer 2014–2016, Stanford PhD 2005 — has all five CV skills including Docker, but employers, dates and school all disagree, so skills coincidence only",
+        "8554 (Jun Liu, Hanoi, Software): DataForge Scientist since 2021, National University MBA 2019 — no match",
+        "7179 (Jun Liu, Hanoi, Software): Gojek/EY/Standard Chartered manager roles, University of Toronto MSc 2012 — no match",
+        "8274 (Jun Liu, Hanoi, Software): PwC/Innovate HK/AIA roles, Peking University BSc 2014; Facebook hometown Beijing, employer PwC — no match",
+        "4144 (Jun Liu, Ho Chi Minh City, Software): Bain/UrbanFlow, Harvard BSc 2020 — wrong city, employers, dates",
+        "2488 (Jun Liu, Hanoi, AI): BCG/McKinsey, Stanford BSc AI 2005 — different industry, employers, field",
+        "464 (Jun Liu, Ho Chi Minh City, Software): Bank of East Asia/Gojek, Harvard MSc 2012 — wrong city and history",
+        "Additional Hanoi Jun Liu profiles surfaced (801, 814, 870, 1401, 2531, 3236, 3370, 3499, 3605, 4707, 5216, 5260, 5317, 6428, 6815, 6900, 7676, 8053, 8388, 9787) are Marketing/Education/Finance/Legal/Consulting/Healthcare/Logistics/AI/Design and none matches the claimed HSBC+Meta+MIT anchors, so they were not treated as the CV owner"
+      ]
+    },
+    "identity_review": {
+      "performed": true,
+      "initial_identity_id": 9590,
+      "initial_score": 0.05
+    }
+  }
+}

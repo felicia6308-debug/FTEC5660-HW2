@@ -1,0 +1,97 @@
+{
+  "code_sha256": "2c2ffebf07cb16ce8658c9644bb11a688953d1d69da8f302d9dc909a76219ef5",
+  "commit": null,
+  "stress_note": "20 copies of public CVs; throughput only, not unseen-CV accuracy.",
+  "runs": [
+    {
+      "name": "public_run1",
+      "returncode": 0,
+      "seconds": 110.23,
+      "rows": 7,
+      "graded": 7,
+      "correct": 7,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "stress20_run1",
+      "returncode": 0,
+      "seconds": 264.94,
+      "rows": 20,
+      "graded": 20,
+      "correct": 20,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "task2_run1",
+      "returncode": 0,
+      "seconds": 24.45,
+      "rows": 2,
+      "graded": 0,
+      "correct": 0,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "public_run2",
+      "returncode": 0,
+      "seconds": 115.91,
+      "rows": 7,
+      "graded": 7,
+      "correct": 7,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "stress20_run2",
+      "returncode": 0,
+      "seconds": 289.45,
+      "rows": 20,
+      "graded": 20,
+      "correct": 20,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "task2_run2",
+      "returncode": 0,
+      "seconds": 23.77,
+      "rows": 2,
+      "graded": 0,
+      "correct": 0,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "public_run3",
+      "returncode": 0,
+      "seconds": 104.98,
+      "rows": 7,
+      "graded": 7,
+      "correct": 7,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "stress20_run3",
+      "returncode": 0,
+      "seconds": 260.04,
+      "rows": 20,
+      "graded": 20,
+      "correct": 20,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "task2_run3",
+      "returncode": 0,
+      "seconds": 24.6,
+      "rows": 2,
+      "graded": 0,
+      "correct": 0,
+      "unresolved": [],
+      "passed_execution": true
+    }
+  ]
+}

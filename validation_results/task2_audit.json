@@ -1,0 +1,70 @@
+{
+  "adversarial_cv.pdf": {
+    "score": 0.95,
+    "identity_id": 10001,
+    "discrepancies": [],
+    "coverage": {
+      "identity": "Single plausible match Kelly Tsang (LinkedIn 10001) at Central, Hong Kong, Finance industry, headline 'Finance Professional' — exactly matching CV location/headline; Facebook profile 10001 original_name 'Kelly Tsang', display name 'Kel Tsang', city Central, Hong Kong, hometown Sha Tin (matches CV hometown), current job Manager at AIA, education Bachelor's Degree.",
+      "jobs": "All 3 jobs verified exactly: HSBC Analyst 2016-2019; Standard Chartered Analyst 2019-2022; AIA Manager 2022-Present (is_current true). No extra/missing roles.",
+      "education": "HKUST BSc Finance, end_year (graduation) 2016 — matches CV 'Graduated 2016'. Start year 2012 not claimed in CV.",
+      "skills": "All 4 CV skills present on matched LinkedIn profile: Financial Analysis, Excel, SQL, Risk Modeling.",
+      "city_hometown": "City Central, Hong Kong verified; hometown Sha Tin corroborated via Facebook profile (not a LinkedIn field).",
+      "unresolved": "None; no contradictory fields found. Years of experience 9 consistent with 2016 start."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        10001
+      ],
+      "matching_anchors": [
+        "Employer history HSBC → Standard Chartered → AIA with exact 2016-2019 / 2019-2022 / 2022-present dates",
+        "HKUST BSc Finance graduation 2016",
+        "All four listed skills on LinkedIn profile",
+        "City Central, Hong Kong; headline 'Finance Professional'; industry Finance",
+        "Facebook corroboration: hometown Sha Tin, current job Manager at AIA, posts referencing HKUST graduation, HSBC, Standard Chartered, AIA"
+      ],
+      "reasons_other_candidates_excluded": "Name searches on LinkedIn (with and without location filter) and Facebook returned only one same-name profile; all other Facebook fuzzy results were unrelated names (Riley Tran, Li Wang, etc.) with no Kelly Tsang identity."
+    },
+    "identity_review": {
+      "performed": false
+    }
+  },
+  "target_cv.pdf": {
+    "score": 0.95,
+    "identity_id": 10001,
+    "discrepancies": [],
+    "coverage": {
+      "identity": "Kelly Tsang, Central, Hong Kong — single LinkedIn match (id 10001); corroborated by Facebook profile id 10001 (display name 'Kel Tsang', original_name 'Kelly Tsang', city Central, hometown Sha Tin, current job Manager at AIA, posts about HKUST graduation, first day as Analyst at HSBC, Analyst role at Standard Chartered, and new Manager role at AIA).",
+      "jobs_verified": [
+        "Manager, AIA, 2022–Present — matches LinkedIn (AIA, Manager, 2022, is_current=true)",
+        "Analyst, Standard Chartered, 2019–2022 — matches LinkedIn (Analyst, 2019–2022)",
+        "Analyst, HSBC, 2016–2019 — matches LinkedIn (Analyst, 2016–2019)"
+      ],
+      "education_verified": [
+        "HKUST, BSc, Finance, graduated 2016 — matches LinkedIn (HKUST, BSc, Finance, 2012–2016)"
+      ],
+      "skills_verified": "All four CV skills present on matched LinkedIn profile: Financial Analysis, Excel, SQL, Risk Modeling.",
+      "location_verified": "Central, Hong Kong matches; hometown Sha Tin matches Facebook profile.",
+      "unresolved": "None — no name/city/degree/title/date/employer/skill contradictions found. Job bullet descriptions and headline are not discrepancy sources and were not evaluated."
+    },
+    "identity_resolution": {
+      "candidate_ids_checked": [
+        10001
+      ],
+      "matching_anchors": [
+        "Name Kelly Tsang (LinkedIn) / original_name Kelly Tsang on Facebook",
+        "City Central, Hong Kong; hometown Sha Tin",
+        "Employer history: HSBC (2016–2019) → Standard Chartered (2019–2022) → AIA (2022–present)",
+        "Education: HKUST, BSc Finance, graduating 2016 (Facebook post 'Graduation day at HKUST')",
+        "Industry: Finance / finance professional headline",
+        "Skills: Financial Analysis, Excel, SQL, Risk Modeling"
+      ],
+      "reasons_other_candidates_excluded": [
+        "LinkedIn name searches for 'Kelly Tsang' with and without location filter, and a broader 'Tsang' search in Hong Kong Finance, returned only profile 10001 — no other plausible namesakes existed to compare or confuse.",
+        "Other Facebook search results (Riley Tran, Avery Wang, Casey Wang, Li Wang, etc.) were fuzzy name matches with unrelated names and no supporting anchors; none matched the candidate's employer history, education or skills."
+      ]
+    },
+    "identity_review": {
+      "performed": false
+    }
+  }
+}

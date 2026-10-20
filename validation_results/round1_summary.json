@@ -1,0 +1,37 @@
+{
+  "code_sha256": "2c2ffebf07cb16ce8658c9644bb11a688953d1d69da8f302d9dc909a76219ef5",
+  "runs": [
+    {
+      "name": "public_run1",
+      "returncode": 0,
+      "seconds": 110.23,
+      "rows": 7,
+      "graded": 7,
+      "correct": 7,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "stress20_run1",
+      "returncode": 0,
+      "seconds": 264.94,
+      "rows": 20,
+      "graded": 20,
+      "correct": 20,
+      "unresolved": [],
+      "passed_execution": true
+    },
+    {
+      "name": "task2",
+      "returncode": 0,
+      "seconds": 24.45,
+      "rows": 2,
+      "graded": 0,
+      "correct": 0,
+      "unresolved": [],
+      "passed_execution": true
+    }
+  ],
+  "stress_note": "20 copies of public CVs; throughput only, not unseen-CV accuracy.",
+  "commit": null
+}
